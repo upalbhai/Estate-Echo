@@ -1,0 +1,28 @@
+/* MyCustomToaster.css */
+
+.my-toaster {
+    /* Example styling */
+    background-color : #333 !important;
+    color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .my-toaster .Toastify__toast-body {
+    /* Example styling for the toast body */
+    font-size: 14px;
+  }
+  
+  .my-toaster .Toastify__toast--success {
+    /* Example styling for success toasts */
+    background-color: #262826  !important;
+  }
+  
+  .my-toaster .Toastify__toast--error {
+    /* Example styling for error toasts */
+    background-color: #f44336;
+  }
+  
+  /* Add more styles as needed */
+  

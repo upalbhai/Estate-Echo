@@ -105,7 +105,7 @@ export const Listing = () => {
               </p>
               {listing.offer && (
                 <p className='bg-green-900 cursor-pointer w-full max-w-[200px] text-white text-center p-1 rounded-md'>
-                  ₹{+listing.regularPrice - listing.discountPrice} OFF
+                  ₹{+listing.regularPrice - +listing.discountPrice} OFF
                 </p>
               )}
             </div>
